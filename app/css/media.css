@@ -1,0 +1,174 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+.main_content_section {
+	box-sizing: border-box;
+	justify-content: flex-start;
+}
+.reviews{
+	margin-top: 30px;
+}
+.pagination {
+	margin: 30px auto;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+	.sign_and_reg{
+		position: absolute;
+	    left: calc(50% - 128px);
+	    top: 76px;
+    }
+	.header_content .logo {
+	    left: calc(50% - 57px);
+    	top: 3px;
+    	position: absolute;
+	}
+	.sidebar {
+		margin: 0px auto 30px auto;
+	}
+	.information_form {
+		flex-direction: column;
+	}
+	.information_form_column2 {
+		padding-left: 0px;
+		padding-right: 40px;
+	}
+	.information_form_column2, .information_form_column1 {
+		max-width: 425px;
+		width: 100%;
+		padding-right: 0px;
+	}
+	.radiobutton_div p {
+		margin-right: 114px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+	.main_content_section{
+		justify-content: center;
+	}
+	.about_you {
+		display: flex;
+		justify-content: column;
+		align-items: center;
+	}
+	.photo_div {
+		margin-right: 0px;
+	}
+	.footer_content{
+		flex-direction: column;
+		padding: 30px 15px;
+	}
+	.footer_content div {
+		align-items: center;
+		margin-bottom: 30px;
+		margin-right: 0px;
+	}
+	.string_div input {
+		width: 220px;
+	}
+	.div_for_button {
+		padding-right: 95px ;
+	}
+	.service_popup_div {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+	.reviews_header p span:nth-child(1) {
+		margin-right: 15px;
+	}
+	.add_your_service {
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	.week {
+		flex-direction: column;
+		align-items: center;
+	}
+	.week_day {
+		width: 262px;
+		margin-right: 0px;
+	}
+	.string_div {
+		flex-direction: column;
+	}
+	.radiobutton_div p {
+		margin-right: 42px;
+	}
+	.radiobutton_div label {
+		margin-right: 15px;
+	}
+	.string_div input {
+		width: 275px;
+	}
+	.div_for_button {
+		padding-right: 0px;
+		justify-content: center;
+	}
+	.sign_in_form_block {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.help_btns_div {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.help_btns_div p {
+		margin-top: 10px;
+	}
+	.reg_pop_div {
+		padding: 30px 10px;
+	}
+	.add_serv_form {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.add_serv_form div {
+		margin-bottom: 15px;
+		margin-right: 0px;
+	}
+	.service_popup_div {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+}
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+	.sidebar {
+		position: sticky;
+    	top: 0px;
+    	bottom: 260px;
+	}
+}
+    
